@@ -1,0 +1,420 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video
+{
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+{
+	display: block;
+}
+body
+{
+	line-height: 1;
+}
+ol,ul
+{
+	list-style: none;
+}
+blockquote,q
+{
+	quotes: none;
+}
+blockquote:before,blockquote:after,q:before,q:after
+{
+	content: '';
+	content: none;
+}
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@font-face
+{
+	font-family: 'CDLeagueGothic';
+	font-style: normal;
+	font-weight: normal;
+/*	src: url('fonts/leaguegothic-regular-webfont.eot');
+	src: url('fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/leaguegothic-regular-webfont.woff') format('woff'),url('fonts/leaguegothic-regular-webfont.ttf') format('truetype'),url('fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');*/
+}
+body
+{
+	font-family: georgia,sans-serif;
+}
+h1,h2
+{
+	font-family: "CDLeagueGothic","Helvetica Neue","Helvetica",georgia,sans-serif;
+	font-size: 2.7em;
+}
+.container
+{
+	margin: 0 auto;
+	max-width: 960px;
+	padding: 10px;
+}
+.right
+{
+	float: right;
+}
+.clearfix
+{
+	clear: both;
+	content: "";
+	display: table;
+}
+header
+{
+	background-color: #569AC5;
+	color: #FFFFFF;
+	padding: 25px 0;
+}
+header h2
+{
+	display: inline-block;
+}
+header a
+{
+	color: white;
+	text-decoration: none;
+}
+header .nav
+{
+	margin-top: 20px;
+}
+.about
+{
+/*	background-image: url('images/about_bcg.png');*/
+	background-size: cover;
+	moz-background-size: cover;
+	o-background-size: cover;
+	padding: 80px 0;
+	webkit-background-size: cover;
+}
+.about h1
+{
+	color: #333333;
+	font-size: 4em;
+	text-align: center;
+}
+.about p
+{
+	color: #333333;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	margin-bottom: 40px;
+	padding: 30px;
+	text-align: center;
+}
+.about .video
+{
+	text-align: center;
+}
+.about .video iframe
+{
+	height: 360px;
+	width: 640px;
+}
+.upcoming
+{
+	margin-bottom: 60px;
+}
+.upcoming h2
+{
+	color: #35495D;
+	font-size: 3em;
+	margin: 50px 0;
+}
+.notice
+{
+	color: #CF5C60;
+}
+.event
+{
+	color: #35495D;
+	max-width: 600px;
+}
+.event .title
+{
+	font-size: 1.3em;
+	font-weight: 700;
+	margin-bottom: 3px;
+}
+.event .date
+{
+	color: #27AE60;
+	margin-bottom: 30px;
+}
+.event p
+{
+	font-size: 1.1em;
+	line-height: 1.3em;
+	line-height: 2em;
+	margin-bottom: 20px;
+}
+.event .bold
+{
+	font-weight: bold;
+}
+.event a
+{
+	color: #569AC5;
+	text-decoration: none;
+}
+.event .register-button
+{
+	background-color: #5DD48F;
+	border-radius: 4px;
+	color: white;
+	display: inline-block;
+	font-family: georgia,sans-serif;
+	font-size: 1.2em;
+	margin-top: 15px;
+	moz-border-radius: 4px;
+	padding: 20px 32px;
+	text-transform: uppercase;
+	webkit-border-radius: 4px;
+}
+.event .previous-event
+{
+	background-color: #CBD0D3;
+}
+a.register-button
+{
+	text-decoration: none;
+}
+.divider
+{
+	border-bottom: 1px solid #E1E1E1;
+	margin: 55px 0;
+}
+.divider-no-line
+{
+	margin: 85px 0;
+}
+.signup,.mentor-signup
+{
+	background-color: #569AC5;
+	padding: 60px 0;
+}
+.signup h2,.mentor-signup h2
+{
+	color: #F9F9F9;
+	font-size: 4em;
+	margin-bottom: 35px;
+}
+.signup p,.mentor-signup p
+{
+	color: #F9F9F9;
+	font-size: 1.2em;
+	margin-bottom: 20px;
+}
+#mc-embedded-subscribe-form input[type=email]
+{
+	border: none;
+	border-radius: 4px 0 0 4px;
+	font-family: georgia,sans-serif;
+	font-size: 1em;
+	moz-border-radius: 4px 0 0 4px;
+	padding: 17px;
+	webkit-border-radius: 4px 0 0 4px;
+	width: 350px;
+}
+#mc-embedded-subscribe
+{
+	background-color: #5DD48F;
+	border: none;
+	border-radius: 0 4px 4px 0;
+	color: white;
+	cursor: pointer;
+	font-family: georgia,sans-serif;
+	font-size: 1em;
+	margin-left: -6px;
+	moz-border-radius: 0 4px 4px 0;
+	padding: 17px;
+	text-transform: uppercase;
+	vertical-align: top;
+	webkit-border-radius: 0 4px 4px 0;
+	width: 240px;
+}
+.mentors
+{
+/*	background-image: url('images/mentors_bcg_1.png');*/
+	background-size: cover;
+	moz-background-size: cover;
+	o-background-size: cover;
+	padding-top: 70px;
+	webkit-background-size: cover;
+}
+.mentors h2
+{
+	color: #F3AE4C;
+	display: inline-block;
+	font-size: 3em;
+	margin-bottom: 90px;
+}
+.mentor-signup-link
+{
+	color: #F3AE4C;
+	float: right;
+	margin-top: 20px;
+	text-decoration: none;
+}
+.mentor-images
+{
+	text-align: center;
+}
+.mentor
+{
+	color: #35495D;
+	display: inline-block;
+	font-size: 1.2em;
+	line-height: 1.3em;
+	margin-bottom: 60px;
+	margin-right: 50px;
+	text-align: center;
+	width: 200px;
+}
+.mentor .name
+{
+	font-size: 1.2em;
+	margin-bottom: 5px;
+}
+.mentor .profile-pic
+{
+	border: 1px solid #35495D;
+	border-radius: 90px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	moz-border-radius: 90px;
+	webkit-border-radius: 90px;
+	width: 125px;
+}
+.pictures h2
+{
+	color: #35495D;
+	font-size: 3em;
+	margin-bottom: 20px;
+	margin-top: 80px;
+	text-align: center;
+}
+.more-pictures
+{
+	color: #569AC5;
+	display: block;
+	margin-bottom: 80px;
+	text-align: center;
+	text-decoration: none;
+}
+.sponsors h2
+{
+	color: #35495D;
+	font-size: 3em;
+	padding: 80px 0;
+	text-align: center;
+}
+.sponsors
+{
+	font-size: 1.2em;
+	line-height: 1.3em;
+	margin: 20px auto;
+	margin-bottom: 60px;
+}
+.sponsors a
+{
+	color: #569AC5;
+	text-decoration: none;
+}
+.sponsor-logos
+{
+	display: inline-block;
+	margin-top: 40px;
+}
+.sponsors img
+{
+	margin-left: 30px;
+	max-height: 125px;
+	max-width: 125px;
+}
+footer
+{
+	background-color: #354B60;
+	color: white;
+	line-height: 1.4em;
+	padding: 60px 0;
+	text-align: center;
+}
+footer a
+{
+	color: white;
+	text-decoration: none;
+}
+.micro-form
+{
+	display: inline-block;
+}
+.micro-form #mc-embedded-subscribe-form input[type=email]
+{
+	font-size: 0.8em;
+	padding: 10px;
+	width: 200px;
+}
+.micro-form #mc-embedded-subscribe
+{
+	font-size: 0.8em;
+	padding: 10px;
+	width: 100px;
+}
+@media all and (max-width: 699px)
+{
+	header
+	{
+		padding-bottom: 60px;
+		padding-top: 30px;
+	}
+	header .container
+	{
+		text-align: center;
+	}
+	.micro-form
+	{
+		padding-top: 10px;
+	}
+	.about .video iframe
+	{
+		height: 144px;
+		width: 256px;
+	}
+	#mc-embedded-subscribe-form
+	{
+		text-align: center;
+	}
+	#mc-embedded-subscribe-form input[type=email],#mc-embedded-subscribe
+	{
+		border-radius: 0;
+		font-size: 0.8em;
+		margin-left: 0;
+		moz-border-radius: 0;
+		padding: 10px;
+		webkit-border-radius: 0;
+		width: 250px;
+	}
+	#mc-embedded-subscribe
+	{
+		width: 270px;
+	}
+	.mentor-signup-link
+	{
+		display: none;
+	}
+}
+
+/* ---------- additions ---------- */
+a {
+	text-decoration: none;
+	color: white;
+}
