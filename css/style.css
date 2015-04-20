@@ -137,13 +137,13 @@ header .nav
 	padding: 10px;
 	text-align: center;
 }
-.upcoming a:link { 
+.upcoming a:link {
 	color: blue !important;
 	}
-.upcoming a:visited { 
+.upcoming a:visited {
 	color: purple  !important;
 	}
-.upcoming a:hover { 
+.upcoming a:hover {
 	color: red !important;
 	background-color: white !important;
 	text-decoration: none !important;
@@ -450,4 +450,8 @@ a {
 
 #black_links {
 	color: black;
+}
+
+#sponsor_list li {
+	padding-top: 5%;
 }
