@@ -128,6 +128,26 @@ header .nav
 	font-size: 3em;
 	margin: 50px 0;
 }
+.upcoming p, .upcoming ul
+{
+	color: #333333;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	margin-bottom: 10px;
+	padding: 10px;
+	text-align: center;
+}
+.upcoming a:link { 
+	color: blue !important;
+	}
+.upcoming a:visited { 
+	color: purple  !important;
+	}
+.upcoming a:hover { 
+	color: red !important;
+	background-color: white !important;
+	text-decoration: none !important;
+	}
 .notice
 {
 	color: #CF5C60;
@@ -332,14 +352,22 @@ a.register-button
 }
 .sponsor-logos
 {
-	display: inline-block;
-	margin-top: 40px;
+	text-align: center;
 }
+/*
 .sponsors img
 {
 	margin-left: 30px;
 	max-height: 125px;
 	max-width: 125px;
+}
+*/
+.sponsors img
+{
+	text-align: center;
+	max-height: 500px;
+	max-width: 500px;
+	margin: 0 auto;
 }
 footer
 {
@@ -418,4 +446,8 @@ footer a
 a {
 	text-decoration: none;
 	color: white;
+}
+
+#black_links {
+	color: black;
 }

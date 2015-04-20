@@ -77,8 +77,8 @@
                   <div class="title">Mentor</div>
                </div>
                <div class="mentor">
-                  <a href="https://www.linkedin.com/pub/darcy-o-connor/0/9b8/347" target="_blank"><img class="profile-pic" src="images/ninjas/4.png"></a>
-                  <div class="name">Darcy O'Connor</div>
+                  <a href="https://www.linkedin.com/in/jmchng10" target="_blank"><img class="profile-pic" src="images/ninjas/4.png"></a>
+                  <div class="name">Jenni Ch'ng</div>
                   <div class="title">Mentor</div>
                </div>
                <div class="mentor">
@@ -159,9 +159,7 @@
                <a href="mailto:info@coderdojoboulder.com?Subject=Sponsorship">
                send us an email</a>.
             </p>
-            <div class="sponsor-logos">
-		<img src="images/sparkfun_logo_3.png" title="SparkFun Electronics"/>
-	    </div>
+            <div class="sponsor-logos"></div>
          </div>
          <div class="clearfix"></div>
       </div>
