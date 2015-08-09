@@ -10,6 +10,16 @@
     .snippet {
       background-color: #F0F0F0;
     }
+    .beforeCol {
+      width: 40%;
+      display: inline-block;
+      border: 1px solid black;
+    }
+    .afterCol {
+      width: 40%;
+      display: inline-block;
+      border: 1px solid black;
+    }
   </style>
   </head>
   <body>
@@ -24,74 +34,22 @@
     </ul>
     <h2>Let's try making a simple website using HTML, CSS, and JavaScript!</h2>
     <ul>
-      <li>Hello World - <a href="http://codepen.io/seanhelvey/pen/OVqpXg" target="_blank">http://codepen.io/seanhelvey/pen/OVqpXg</a></li>
-      <li><h3>Things to do with Hello World:</h3>
-        <ul>
-          <li>Change text and background color
-          <ul class="snippet"><li>CSS:<br/><code>
-            html {
-              color: purple;
-              background-color: lightblue;
-            }
-          </code></li></ul></li>
-          <li>Make body into h1 and h2</li>
-          <ul class="snippet"><li>HTML:<br/><code>
-            &lth1&gtHello, World!&lt/h1&gt<br/>
-            &lth2&gtHere are a few of my favorite things:&lt/h2&gt
-          </code></li></ul></li>
-          <li>Add list of favorite things</li>
-          <ul class="snippet"><li>HTML:<br/><code>
-            &ltul&gt
-              </code><br/><code>
-              &nbsp;&nbsp;&ltli&gtCheese&lt/li&gt
-              </code><br/><code>
-              &nbsp;&nbsp;&ltli&gtSurfing&lt/li&gt
-              </code><br/><code>
-              &nbsp;&nbsp;&ltli&gtDogs&lt/li&gt
-              </code><br/><code>
-            &lt/ul&gt
-          </code></li></ul></li>
-          <li>Style list to have different background color</li>
-          <ul class="snippet"><li>CSS:<br/><code>
-            ul {
-              background-color: yellow;
-            }
-          </code></li></ul></li>
-          <li>Add button with onclick event and javascript function</li>
-          <ul class="snippet"><li>HTML:<br/><code>
-            &ltbutton onclick="changeName()"&gtClick me!&lt/button&gt
-            </code><br/><br/>JavaScript:<br/><code>
-              function changeName(){
-                </code><br/><code>
-                &nbsp;&nbsp;alert("test");
-                </code><br/><code>
-              }
-          </code></li></ul></li>
-          <li>Put span around world and change color (explain css # for select by name)</li>
-          <ul class="snippet"><li>HTML:<br/><code>
-            &ltspan id="name">World&lt/span&gt
-          </code><br/><br/>CSS:<br/><code>
-            #name {
-              color: red;
-            }
-          </code></li></ul></li>
-          <li>Write function to set new name</li>
-          <ul class="snippet"><li>HTML:<br/><code>
-          &ltinput id="myinput"&gt&lt/input&gt
-          </code><br/><br/>JavaScript:<br/><code>
-            function changeName(){
-              </code><br/><code>
-              &nbsp;&nbsp;var name = document.getElementById("name");
-              </code><br/><code>
-              &nbsp;&nbsp;var myinput = document.getElementById("myinput");
-              </code><br/><code>
-              &nbsp;&nbsp;name.innerHTML = myinput.value;
-              </code><br/><code>
-            }
-          </code></li></ul></li>
-        </ul>
-      </li>
-      <li>Hello World Solution - <a href="http://codepen.io/seanhelvey/pen/mJoWOO" target="_blank">http://codepen.io/seanhelvey/pen/OVqpXg</a></li>
+      <li>Hello World - <a href="http://codepen.io/seanhelvey/pen/XbGRjd" target="_blank">http://codepen.io/seanhelvey/pen/OVqpXg</a></li>
+      <li><ul>
+      HTML
+      <li><input type="checkbox"> Change the content of the h1 tag</li>
+      <li><input type="checkbox"> Add an h2 tag with some text describing your website</li>
+      <li><input type="checkbox"> Add a paragraph of text</li>
+      <li><input type="checkbox"> Add an image below your h1 and h2 tags</li>
+      <li><input type="checkbox"> Add a hyperlink below the image</li>
+      CSS
+      <li><input type="checkbox"> Center everything on the page</li>
+      <li><input type="checkbox"> Change the font color</li>
+      <li><input type="checkbox"> Change the background color</li>
+      JavaScript
+      <li><input type="checkbox"> EXTRA CREDIT: Add a button that displays an alert message</li>
+      </ul></li>
+      <li>Hello World Solution - <a href="http://codepen.io/seanhelvey/pen/EjMmLm" target="_blank">http://codepen.io/seanhelvey/pen/OVqpXg</a></li>
     </ul>
 
     <h2>Where to go from here? Tons of materials available through CoderDojo:</h2>
