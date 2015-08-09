@@ -1,0 +1,109 @@
+<html>
+  <head>
+  <style>
+    ul {
+      list-style-type: none;
+    }
+    li {
+      padding: .5%;
+    }
+    .snippet {
+      background-color: #F0F0F0;
+    }
+  </style>
+  </head>
+  <body>
+    <h1>Web Development with CoderDojo Boulder</h1>
+    <h2>What can you do with HTML, CSS, and JavaScript?</h2>
+    <ul>
+      <li>Tearable Cloth - <a href="http://codepen.io/dissimulate/pen/KrAwx" target="_blank">http://codepen.io/dissimulate/pen/KrAwx</a></li>
+      <li>Test Drive - <a href="http://codepen.io/mmoustafa/pen/owheb" target="_blank">http://codepen.io/mmoustafa/pen/owheb</a></li>
+      <li>Guessing Game - <a href="http://codepen.io/timsamoff/pen/BCreJ" target="_blank">http://codepen.io/timsamoff/pen/BCreJ</a></li>
+      <li>Snake Game - <a href="http://codepen.io/CaioPaiola/pen/GFpuK" target="_blank">http://codepen.io/CaioPaiola/pen/GFpuK</a></li>
+      <li>Asteroids - <a href="http://codepen.io/AndyTheGiant/pen/Jtevg" target="_blank">http://codepen.io/AndyTheGiant/pen/Jtevg</a></li>
+    </ul>
+    <h2>Let's try making a simple website using HTML, CSS, and JavaScript!</h2>
+    <ul>
+      <li>Hello World - <a href="http://codepen.io/seanhelvey/pen/OVqpXg" target="_blank">http://codepen.io/seanhelvey/pen/OVqpXg</a></li>
+      <li><h3>Things to do with Hello World:</h3>
+        <ul>
+          <li>Change text and background color
+          <ul class="snippet"><li>CSS:<br/><code>
+            html {
+              color: purple;
+              background-color: lightblue;
+            }
+          </code></li></ul></li>
+          <li>Make body into h1 and h2</li>
+          <ul class="snippet"><li>HTML:<br/><code>
+            &lth1&gtHello, World!&lt/h1&gt<br/>
+            &lth2&gtHere are a few of my favorite things:&lt/h2&gt
+          </code></li></ul></li>
+          <li>Add list of favorite things</li>
+          <ul class="snippet"><li>HTML:<br/><code>
+            &ltul&gt
+              </code><br/><code>
+              &nbsp;&nbsp;&ltli&gtCheese&lt/li&gt
+              </code><br/><code>
+              &nbsp;&nbsp;&ltli&gtSurfing&lt/li&gt
+              </code><br/><code>
+              &nbsp;&nbsp;&ltli&gtDogs&lt/li&gt
+              </code><br/><code>
+            &lt/ul&gt
+          </code></li></ul></li>
+          <li>Style list to have different background color</li>
+          <ul class="snippet"><li>CSS:<br/><code>
+            ul {
+              background-color: yellow;
+            }
+          </code></li></ul></li>
+          <li>Add button with onclick event and javascript function</li>
+          <ul class="snippet"><li>HTML:<br/><code>
+            &ltbutton onclick="changeName()"&gtClick me!&lt/button&gt
+            </code><br/><br/>JavaScript:<br/><code>
+              function changeName(){
+                </code><br/><code>
+                &nbsp;&nbsp;alert("test");
+                </code><br/><code>
+              }
+          </code></li></ul></li>
+          <li>Put span around world and change color (explain css # for select by name)</li>
+          <ul class="snippet"><li>HTML:<br/><code>
+            &ltspan id="name">World&lt/span&gt
+          </code><br/><br/>CSS:<br/><code>
+            #name {
+              color: red;
+            }
+          </code></li></ul></li>
+          <li>Write function to set new name</li>
+          <ul class="snippet"><li>HTML:<br/><code>
+          &ltinput id="myinput"&gt&lt/input&gt
+          </code><br/><br/>JavaScript:<br/><code>
+            function changeName(){
+              </code><br/><code>
+              &nbsp;&nbsp;var name = document.getElementById("name");
+              </code><br/><code>
+              &nbsp;&nbsp;var myinput = document.getElementById("myinput");
+              </code><br/><code>
+              &nbsp;&nbsp;name.innerHTML = myinput.value;
+              </code><br/><code>
+            }
+          </code></li></ul></li>
+        </ul>
+      </li>
+      <li>Hello World Solution - <a href="http://codepen.io/seanhelvey/pen/mJoWOO" target="_blank">http://codepen.io/seanhelvey/pen/OVqpXg</a></li>
+    </ul>
+
+    <h2>Where to go from here? Tons of materials available through CoderDojo:</h2>
+    <ul>
+      <li><a href="http://kata.coderdojo.com/wiki/Learning_Resource" target="_blank">CoderDojo Learning Resources</a></li>
+    </ul>
+
+    <h2>Download a text editor:</h2>
+    <ul>
+      <li><a href="http://www.sublimetext.com/2" target="_blank">Sublime Text Editor</a></li>
+      <li><a href="https://notepad-plus-plus.org/download/v6.8.1.html" target="_blank">Notepad++</a></li>
+    </ul>
+
+  </body>
+</html>
